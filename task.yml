@@ -7,4 +7,4 @@
      - name: "Git Checkout"
        ansible.builtin.git:
            repo: "https://github.com/reverentgeek/node-weight-tracker"
-           dest: "/var/www/html/ws2"
+           dest: "/srv/checkout"
