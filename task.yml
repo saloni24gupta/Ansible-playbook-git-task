@@ -2,7 +2,7 @@
    become: yes
    tasks:
      - package:
-           name:  "node"
+           name:  "git"
            state: latest
      - name: "Git Checkout"
        ansible.builtin.git:
